@@ -1,0 +1,52 @@
+{
+  "name": "ionic-hello-world",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
+  },
+  "dependencies": {
+    "@angular/common": "^4.0.1",
+    "@angular/compiler": "^4.0.1",
+    "@angular/compiler-cli": "^4.0.1",
+    "@angular/core": "^4.0.1",
+    "@angular/forms": "^4.0.1",
+    "@angular/http": "^4.0.1",
+    "@angular/platform-browser": "^4.0.1",
+    "@angular/platform-browser-dynamic": "^4.0.1",
+    "@angular/platform-server": "^4.0.1",
+    "@ionic-native/core": "3.1.0",
+    "@ionic-native/splash-screen": "3.1.0",
+    "@ionic-native/sqlite": "^3.4.4",
+    "@ionic-native/status-bar": "3.1.0",
+    "@ionic/storage": "2.0.0",
+    "angular": "^1.6.4",
+    "angular2-google-maps": "^0.17.0",
+    "ionic-angular": "3.0.1",
+    "ionicons": "3.0.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "rxjs": "^5.1.1",
+    "sw-toolbox": "3.4.0",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "1.1.4",
+    "@types/lodash": "^4.14.62",
+    "typescript": "^2.2.2"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-whitelist",
+    "cordova-plugin-console",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [],
+  "description": "elite-schedule-app: An Ionic project"
+}
